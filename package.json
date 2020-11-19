@@ -1,0 +1,31 @@
+{
+  "name": "searchable_selectbox_vue_3",
+  "version": "1.0.1",
+  "description": "Search your values in selectbox with selectable_searchbox_vue_3 package",
+  "main": "SearchSelectboxComponent.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akifcan/selectable_searchbox_vue_3.git"
+  },
+  "keywords": [
+    "selectbox",
+    "search",
+    "html",
+    "css",
+    "vue",
+    "vue",
+    "3",
+    "vue_3",
+    "search",
+    "selectbox"
+  ],
+  "author": "Akifcan Kara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akifcan/selectable_searchbox_vue_3/issues"
+  },
+  "homepage": "https://github.com/Akifcan/selectable_searchbox_vue_3#readme"
+}
