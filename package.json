@@ -1,6 +1,6 @@
 {
   "name": "searchable_selectbox_vue_3",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Search your values in selectbox with selectable_searchbox_vue_3 package",
   "main": "SearchSelectboxComponent.vue",
   "scripts": {
