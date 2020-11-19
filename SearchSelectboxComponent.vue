@@ -15,14 +15,12 @@ export default {
     let lastPressedKey = null;
 
     function lowerCaseListItems() {
-      return props.items
-        .map((item) => {
-          return {
-            title: item.title.replace(/İ/g, "i").toLowerCase(),
-            value: item.value,
-          };
-        })
-        .slice(0, props.limit || props.items.length);
+      return props.items.map((item) => {
+        return {
+          title: item.title.replace(/İ/g, "i").toLowerCase(),
+          value: item.value,
+        };
+      });
     }
 
     function searchInItems(keyword) {
@@ -82,7 +80,7 @@ export default {
     <div class="search-selectbox__items">
       <ul v-if="showList">
         <li
-          v-for="item in listItems"
+          v-for="item in listItems.slice(0, limit || listItems.length)"
           @click="
             (search = item.title), (value = item.value), (showList = false)
           "
